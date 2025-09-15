@@ -47,7 +47,7 @@ Typescript is encouraged but not mandatory
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## `npm install` inside `kanban-frontend` and `kanban-backend` directory
+### `npm install` inside `kanban-frontend` and `kanban-backend` directory
 
 To start the server: 
 
