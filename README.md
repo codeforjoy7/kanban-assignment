@@ -47,13 +47,15 @@ Setup instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## `npm install` inside `kanban-frontend` and `kanban-backend` directory
 
-To start the server: in the `kanban-backend` directory, you can run:
+To start the server: 
+
+In the `kanban-backend` directory, you can run:
 
 ### `npm run dev`
 
-Which will start the server to run on port 5000
+Which should start the server to run on port 5000
 
 
 📦 Inside the `kanban-frontend` directory, you can run:
