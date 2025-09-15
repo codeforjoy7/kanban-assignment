@@ -5,10 +5,12 @@
 <img width="1467" height="915" alt="Screenshot 2025-09-15 at 6 56 04 pm" src="https://github.com/user-attachments/assets/09daf413-608f-4c0b-994f-0e658e61540c" />
 
 
-🎯 Objective
+🎯 Objective:
+
 Build a single-user Kanban-style task board in React that persists tasks between reloads. 
 
-🖥️ Feature Requirements
+🖥️ Feature Requirements:
+
 Board Structure
 
 A 3-column layout:
