@@ -2,11 +2,8 @@
 
 🧩 Assignment: Personal Kanban Board with Persistent State
 
-
 🎯 Objective
 Build a single-user Kanban-style task board in React that persists tasks between reloads. 
-
-
 
 🖥️ Feature Requirements
 Board Structure
@@ -14,65 +11,68 @@ Board Structure
 A 3-column layout:
 
 To Do
-
 In Progress
-
 Done
 
-Core Functionality
-
+Core Functionality:
 Add a new task (title + optional description)
-
 Drag and drop tasks within and across columns
-
 Edit a task's title inline
-
 Delete a task
-
 All changes should persist on refresh using localStorage (or IndexedDB, or a simple JSON-based API if you're feeling fancy)
 
 ✅ Stretch Goals (Optional, if time allows)
 Filter tasks by keyword
-
 Task history log (last 5 actions)
-
 Auto-focus on new task input
-
 Mobile responsive layout
 
 ⚙️ Technical Requirements
 React (with hooks)
-
 Component-level architecture
-
-State management via:
-
-React Context + useReducer, OR
-
-Zustand
-
+State management via: React Context + useReducer, OR Zustand
 Local persistence (via localStorage)
 
-Styled with either:
-
-TailwindCSS (preferred),
-
-CSS modules,
-
-OR any other lightweight CSS strategy
+Styled with either: TailwindCSS (preferred), CSS modules or any other lightweight CSS strategy
 
 Typescript is encouraged but not mandatory
 
 📦 Deliverables
-A public GitHub repo
-
-A README.md with:
-
 Setup instructions
 
-Brief notes on your architecture
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Time spent
+## Available Scripts
 
-Any shortcuts taken
+To start the server: in the `kanban-backend` directory, you can run:
 
+### `npm run dev`
+
+Which will start the server to run on port 5000
+
+
+📦 Inside the `kanban-frontend` directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+
+📦 Brief notes on your architecture
+- Full stack architecture with separate Frontend and Backend writte in React and Express(Node.js)
+- REST API from the Express server with data persistence is through JSON file-based storage inside tasks.json, which could potentially scale with GraphQL query and schema attached to a real DB
+- Zustand store (as mentioned) hadnles client state and optimistic updates for Drag & Drop, calls API for persistence, ato-refreshes after mutations
+- Drag & Drop library to perform the kanban board operation
+- TailwindCSS styling for consistent design system
+- Modular and testable front-end components with Typescript
+- Testing library for unit tests
+
+Time spent (approx 4-5 hours)

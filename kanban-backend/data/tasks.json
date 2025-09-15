@@ -5,6 +5,18 @@
       "title": "Welcome to your Kanban Board!",
       "description": "Drag me to different columns or edit me by clicking!",
       "createdAt": "2025-09-15T15:18:04.035Z"
+    },
+    "2ec2e218-1dba-45a6-b0b2-c4a3bc97ee02": {
+      "id": "2ec2e218-1dba-45a6-b0b2-c4a3bc97ee02",
+      "title": "Hello",
+      "description": "ds dasdsa",
+      "createdAt": "2025-09-15T15:46:49.305Z"
+    },
+    "e6aafd0b-adf9-4c1d-b742-05fc8659c1b6": {
+      "id": "e6aafd0b-adf9-4c1d-b742-05fc8659c1b6",
+      "title": "this is amazing",
+      "description": "so we did this",
+      "createdAt": "2025-09-15T17:39:42.359Z"
     }
   },
   "columns": {
@@ -12,7 +24,8 @@
       "id": "todo",
       "title": "To Do",
       "taskIds": [
-        "task-1"
+        "task-1",
+        "e6aafd0b-adf9-4c1d-b742-05fc8659c1b6"
       ]
     },
     "inprogress": {
@@ -23,7 +36,9 @@
     "done": {
       "id": "done",
       "title": "Done",
-      "taskIds": []
+      "taskIds": [
+        "2ec2e218-1dba-45a6-b0b2-c4a3bc97ee02"
+      ]
     }
   },
   "columnOrder": [
@@ -31,5 +46,31 @@
     "inprogress",
     "done"
   ],
-  "history": []
+  "history": [
+    {
+      "id": "05431f9d-18b5-4c2c-a414-c6e1585113ae",
+      "action": "Deleted task: \"My task is not working\"",
+      "timestamp": "2025-09-15T17:42:54.607Z"
+    },
+    {
+      "id": "567442a4-052b-4886-8301-a8a5b60a9de1",
+      "action": "Moved \"My task is not working\" from To Do to In Progress",
+      "timestamp": "2025-09-15T17:39:46.053Z"
+    },
+    {
+      "id": "7cfcbb9f-f0f5-44e9-a7ca-0524fc0f6445",
+      "action": "Created task: \"this is amazing\"",
+      "timestamp": "2025-09-15T17:39:42.360Z"
+    },
+    {
+      "id": "6ab97f89-61bc-4bf8-848d-5471ca9b8d8f",
+      "action": "Moved \"Welcome to your Kanban Board!\" from In Progress to To Do",
+      "timestamp": "2025-09-15T15:50:14.583Z"
+    },
+    {
+      "id": "6e3110dd-3ba2-4fcc-9cd3-afc989c28dc0",
+      "action": "Created task: \"My task is not working\"",
+      "timestamp": "2025-09-15T15:50:11.625Z"
+    }
+  ]
 }
