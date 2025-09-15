@@ -42,7 +42,7 @@ Styled with either: TailwindCSS (preferred), CSS modules or any other lightweigh
 
 Typescript is encouraged but not mandatory
 
-📦 Deliverables
+# 📦 Deliverables
 # Setup instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -58,7 +58,7 @@ In the `kanban-backend` directory, you can run:
 Which should start the server to run on port 5000
 
 
-📦 Inside the `kanban-frontend` directory, you can run:
+# 📦 Inside the `kanban-frontend` directory, you can run:
 
 ### `npm start`
 
@@ -71,9 +71,9 @@ Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 
-📦 Brief notes on your architecture
+# 📦 Brief notes on your architecture
 - Full stack architecture with separate Frontend and Backend writte in React and Express(Node.js)
 - REST API from the Express server with data persistence is through JSON file-based storage inside tasks.json, which could potentially scale with GraphQL query and schema attached to a real DB
 - Zustand store (as mentioned) hadnles client state and optimistic updates for Drag & Drop, calls API for persistence, ato-refreshes after mutations
