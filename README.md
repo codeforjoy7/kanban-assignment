@@ -76,7 +76,7 @@ Builds the app for production to the `build` folder.
 # 📦 Brief notes on your architecture
 - Full stack architecture with separate Frontend and Backend writte in React and Express(Node.js)
 - REST API from the Express server with data persistence is through JSON file-based storage inside tasks.json, which could potentially scale with GraphQL query and schema attached to a real DB
-- Zustand store (as mentioned) hadnles client state and optimistic updates for Drag & Drop, calls API for persistence, ato-refreshes after mutations
+- Zustand store (as mentioned) hadnles client state and optimistic updates for Drag & Drop, calls API for persistence, auto-refreshes after mutations
 - Drag & Drop library to perform the kanban board operation
 - TailwindCSS styling for consistent design system
 - Modular and testable front-end components with Typescript
