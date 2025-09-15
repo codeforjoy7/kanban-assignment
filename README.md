@@ -43,7 +43,7 @@ Styled with either: TailwindCSS (preferred), CSS modules or any other lightweigh
 Typescript is encouraged but not mandatory
 
 📦 Deliverables
-Setup instructions
+# Setup instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
