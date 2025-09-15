@@ -1,5 +1,5 @@
 # kanban-assignment
-Assignment
+
 🧩 Assignment: Personal Kanban Board with Persistent State
 
 

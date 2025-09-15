@@ -1,0 +1,35 @@
+{
+  "tasks": {
+    "task-1": {
+      "id": "task-1",
+      "title": "Welcome to your Kanban Board!",
+      "description": "Drag me to different columns or edit me by clicking!",
+      "createdAt": "2025-09-15T15:18:04.035Z"
+    }
+  },
+  "columns": {
+    "todo": {
+      "id": "todo",
+      "title": "To Do",
+      "taskIds": [
+        "task-1"
+      ]
+    },
+    "inprogress": {
+      "id": "inprogress",
+      "title": "In Progress",
+      "taskIds": []
+    },
+    "done": {
+      "id": "done",
+      "title": "Done",
+      "taskIds": []
+    }
+  },
+  "columnOrder": [
+    "todo",
+    "inprogress",
+    "done"
+  ],
+  "history": []
+}
